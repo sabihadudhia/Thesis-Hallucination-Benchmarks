@@ -55,9 +55,8 @@ Each benchmark export contains:
 ## Citation
 
 ```
-[Your name]. ([year]). [Thesis title]. [Thesis type], [university].
+Sabiha Dudhia. (2026). Do Hallucination Benchmarks Measure the Same Thing? A Construct Comparison, Model Evaluation and Label Audit of TruthfulQA, HaluEval and FActScore. Bachelor's Thesis, International University of Applied Sciences.
 ```
 
 ## Licence
-
-`[e.g. MIT]` for the code in this repository. The benchmark datasets (TruthfulQA, HaluEval, FActScore) and model weights remain under their original licences.
+The benchmark datasets (TruthfulQA, HaluEval, FActScore) and model weights remain under their original licences.
