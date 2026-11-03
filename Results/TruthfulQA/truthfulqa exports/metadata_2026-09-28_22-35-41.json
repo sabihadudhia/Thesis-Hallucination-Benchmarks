@@ -1,0 +1,25 @@
+{
+  "benchmark": "TruthfulQA",
+  "run_timestamp_utc": "2026-09-28_22-35-41",
+  "seed": 42,
+  "subsample_n": 300,
+  "stratification": "proportional by category (38 categories)",
+  "evaluation_method": "log-probability (MC1: argmax, MC2: normalized true-answer prob mass)",
+  "decoding": "N/A \u2014 single forward pass, no generation",
+  "quantization": {
+    "gemma-3-12b": "bnb NF4 4-bit",
+    "phi-4": "bnb NF4 4-bit",
+    "gpt-oss-20b": "bf16 + CPU offload (native MXFP4 unsupported on Ampere)"
+  },
+  "model_checkpoints": {
+    "gemma-3-12b": "google/gemma-3-12b-it",
+    "phi-4": "microsoft/phi-4",
+    "gpt-oss-20b": "openai/gpt-oss-20b",
+    "judge-llama31": "meta-llama/Llama-3.1-8B-Instruct"
+  },
+  "models_evaluated": [
+    "gemma-3-12b",
+    "phi-4",
+    "gpt-oss-20b"
+  ]
+}
