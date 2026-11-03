@@ -1,6 +1,6 @@
 # Hallucination Benchmarks: Construct Comparison, Model Evaluation and Label Audit
 
-Code and results for my thesis *Do Hallucination Benchmarks Measure the Same Thing? A Construct Comparison, Model Evaluation and Label Audit of TruthfulQA, HaluEval and FActScore ([IU International University of Applied Sciences]*, [2026]).
+Code and results for my thesis *Do Hallucination Benchmarks Measure the Same Thing? A Construct Comparison, Model Evaluation and Label Audit of TruthfulQA, HaluEval and FActScore (IU International University of Applied Sciences*, 2026).
 
 The thesis examines whether three widely used hallucination benchmarks, **TruthfulQA**, **HaluEval** and **FActScore**, measure the same construct, whether model rankings agree across them, and how reliable the TruthfulQA reference labels are.
 
