@@ -6,12 +6,12 @@ The thesis examines whether three widely used hallucination benchmarks, **Truthf
 
 ## What this repository contains
 
-| Part | Description | Location |
-|---|---|---|
-| Model evaluation | Colab notebook that runs Gemma-3-12B, Phi-4 and gpt-oss-20B on subsamples of TruthfulQA, HaluEval and OpenFActScore | `[notebook file]` |
-| Results | Per-benchmark exports: a metadata JSON, a summary CSV and per-item CSVs for each run | `[results folder]` |
-| Label audit | The 60-item TruthfulQA MC1 audit sheet with annotator selections, typology codes and rationales | `[audit file]` |
-| HaluEval subsample | The exact items used, so the runs are reproducible | `[subsample file]` |
+| Part | Description |
+|---|---|
+| Model evaluation | Colab notebook that runs Gemma-3-12B, Phi-4 and gpt-oss-20B on subsamples of TruthfulQA, HaluEval and OpenFActScore |
+| Results | Per-benchmark exports: a metadata JSON, a summary CSV and per-item CSVs for each run |
+| Label audit | The 60-item TruthfulQA MC1 audit sheet with annotator selections, typology codes and rationales |
+| HaluEval subsample | The exact items used, so the runs are reproducible |
 
 ### Evaluation samples
 
